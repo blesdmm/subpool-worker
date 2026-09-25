@@ -1,4 +1,4 @@
-name = "__WORKER_NAME__"
+name = "subpool-worker"
 main = "src/index.js"
 compatibility_date = "2025-11-02"
 
@@ -15,13 +15,13 @@ run_worker_first = true
 # KV 命名空间
 [[kv_namespaces]]
 binding = "KV"  # 不要修改此项
-id = "__KV_NAMESPACE_ID__"
+id = "378b6e37fecd4c3ca529961d291932a5"
 
 [observability]
 enabled = true
 head_sampling_rate = 1
 
 [vars]
-DEBUG_SECRET = "__DEBUG_SECRET__"
-INIT_SECRET = "__INIT_SECRET__"
+DEBUG_SECRET = "test"
+INIT_SECRET = "Aa123123"
 LOG_LEVEL = "info"
